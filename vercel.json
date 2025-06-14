@@ -1,8 +1,11 @@
 {
+  "redirects": [{"source": "/",       "destination": "toolempire.net",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://toolempire.net/$1"
- }
+    }
   ]
 }
+    
